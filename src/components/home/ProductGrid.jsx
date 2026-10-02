@@ -38,7 +38,7 @@ export default function ProductGrid() {
           {/* Center hero */}
           <div className="relative col-span-2 lg:col-span-1 aspect-[4/5] md:aspect-[3/4] overflow-hidden bg-ink">
             <img
-              src="/video/photo_2026-08-10_19-14-39.jpg"
+              src="/video/ChatGPT Image Aug 27, 2026, 12_27_23 AM.png"
               alt="Hattown best-selling caps"
               className="absolute inset-0 w-full h-full object-cover grayscale-[25%] contrast-[1.05]"
             />

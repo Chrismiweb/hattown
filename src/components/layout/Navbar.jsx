@@ -25,8 +25,13 @@ export default function Navbar() {
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
 
-        <Link to="/" className="font-display text-[22px] md:text-[26px] tracking-tight">
+        {/* <Link to="/" className="font-display text-[22px] md:text-[26px] tracking-tight">
           HATTOWN
+        </Link> */}
+        <Link to="/">
+        <div>
+          <img src="/video/logo.png" alt="Logo" className="h-8 md:h-14" />
+        </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-9">

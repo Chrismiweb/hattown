@@ -7,42 +7,48 @@ import { Link } from "react-router-dom";
  * white pill CTA anchored bottom-left.
  */
 const COLLECTIONS = [
-  {
-    title: "City Series Vol. 04",
-    desc: "The skyline drop — six fits, one silhouette.",
-    to: "/shop",
-    img: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1200&auto=format&fit=crop",
+
+   {
+    title: "Fitted Collection",
+    desc: "Flat brim, structured crown, zero give.",
+    to: "/shop?fit=Fitted",
+    img: "/video/gygugiytftf.jpeg",
   },
+
   {
-    title: "Harbor District",
-    desc: "Structured fits inspired by the waterfront.",
-    to: "/shop",
-    img: "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
+title: "Harbor District",
+desc: "Structured fits inspired by the waterfront.",
+to: "/shop",
+img: "/video/ChatGPT Image Aug 27, 2026, 12_45_33 AM.png",
+},
+
+     {
     title: "Trucker Restock",
     desc: "Back in stock — the mesh-back fan favorites.",
     to: "/shop?fit=Trucker",
-    img: "/video/photo_2026-08-10_19-14-42.jpg",
+    img: "/video/ChatGPT Image Aug 27, 2026, 12_58_36 AM.png",
   },
   {
     title: "Denim Blocks",
     desc: "Patchwork denim crowns, unstructured and easy.",
     to: "/shop",
-    img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop",
+    img: "/video/download (3).jpeg",
   },
   {
-    title: "Fitted Collection",
-    desc: "Flat brim, structured crown, zero give.",
-    to: "/shop?fit=Fitted",
-    img: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1200&auto=format&fit=crop",
+ title: "Apparel Line",
+ desc: "Hoodies and crewnecks built for the block.",
+ to: "/shop?category=Apparel",
+ img: "/video/image_91a85f88.png",
+},
+   {
+    title: "City Series Vol. 04",
+    desc: "The skyline drop — six fits, one silhouette.",
+    to: "/shop",
+    img: "/video/ChatGPT Image Aug 27, 2026, 12_40_26 AM.png",
   },
-  {
-    title: "Apparel Line",
-    desc: "Hoodies and crewnecks built for the block.",
-    to: "/shop?category=Apparel",
-    img: "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1200&auto=format&fit=crop",
-  },
+
+
+
 ];
 
 export default function CollectionBanners() {
@@ -66,7 +72,7 @@ export default function CollectionBanners() {
             <p className="text-[13px] md:text-[14px] normal-case font-sans text-paper/80 mb-5 max-w-[36ch]">
               {c.desc}
             </p>
-            <span className="inline-flex items-center rounded-full bg-paper text-ink text-[13px] font-medium px-5 py-2.5 normal-case transition-colors duration-200 group-hover:bg-signal">
+            <span className="inline-flex items-center rounded-full bg-paper text-ink text-[13px] font-medium px-5 py-2.5 normal-case transition-colors duration-200 hover:text-white hover:bg-[#6B6B6B]">
               Shop Collection
             </span>
           </div>

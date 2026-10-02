@@ -33,9 +33,9 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-5 md:px-8 pt-16 md:pt-20 pb-6">
         <div className="grid md:grid-cols-4 gap-10 pb-14 border-b border-line-dark">
           <div>
-            <p className="font-display text-[20px] mb-3">HATTOWN</p>
+            <p className="font-display text-[20px] mb-3">BAYOSHY</p>
             <p className="text-[13px] leading-relaxed text-concrete">
-              Caps built for the skyline. Est. in the harbor district.
+              STAY HUMBLE. STAY YOU.c:\Users\USER\Downloads\IMG_1155.MOV
             </p>
           </div>
           {COLUMNS.map((col) => (
@@ -56,12 +56,12 @@ export default function Footer() {
           ))}
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-3 pt-6">
-          <p className="font-mono text-[11px] text-concrete">© 2026 Hattown. All rights reserved.</p>
-          <p className="font-mono text-[11px] text-concrete">Made in Hattown, USA</p>
+          <p className="font-mono text-[11px] text-concrete">© 2026 BAYOSHY. All rights reserved.</p>
+          <p className="font-mono text-[11px] text-concrete">Made in BAYOSHY, USA</p>
         </div>
       </div>
       <div className="select-none pointer-events-none -mb-[3vw]">
-        <p className="font-display text-[19vw] leading-[0.8] text-center text-ink-soft">HATTOWN</p>
+        <p className="font-display text-[19vw] leading-[0.8] text-center text-ink-soft">BAYOSHY</p>
       </div>
     </footer>
   );

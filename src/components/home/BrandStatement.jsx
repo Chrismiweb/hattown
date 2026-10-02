@@ -9,7 +9,7 @@ import { ArrowRight, Play, Pause } from "lucide-react";
  *
  * Swap VIDEO_SRC / POSTER_SRC for real brand footage when it's ready.
  */
-const VIDEO_SRC = "/video/hattowen.mp4";
+const VIDEO_SRC = "/video/IMG_1155.MOV";
 const POSTER_SRC = "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1600&auto=format&fit=crop";
 
 export default function BrandStatement() {

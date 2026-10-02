@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 
 const CATEGORIES = [
-  { name: "Snapbacks", fit: "Snapback", img: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=900&auto=format&fit=crop" },
-  { name: "Fitted", fit: "Fitted", img: "/video/photo_2026-08-10_19-14-40.jpg" },
-  { name: "Trucker", fit: "Trucker", img: "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=900&auto=format&fit=crop" },
-  { name: "Apparel", fit: null, category: "Apparel", img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=900&auto=format&fit=crop" },
+  { name: "Snapbacks", fit: "Snapback", img: "/video/ChatGPT Image Aug 27, 2026, 12_27_23 AM.png" },
+  { name: "Fitted", fit: "Fitted", img: "/video/download (4).jpeg" },
+  { name: "Trucker", fit: "Trucker", img: "/video/b80ba317-848b-4099-85ff-d603ed14cc28.png" },
+  { name: "Apparel", fit: null, category: "Apparel", img: "/video/image_dfe1aa3d.png" },
 ];
 
 export default function CategoryGrid() {

@@ -5,15 +5,15 @@ import { ArrowRight } from "lucide-react";
 
 const SLIDES = [
   {
-    src: "/video/photo_2026-08-10_19-14-42.jpg",
+    src: "/video/ChatGPT Image Aug 27, 2026, 12_40_26 AM.png",
     alt: "Model wearing a black Hattown structured cap",
   },
   {
-    src: "/video/photo_2026-08-10_19-14-39.jpg",
+    src: "/video/ChatGPT Image Aug 27, 2026, 12_45_33 AM.png",
     alt: "Hattown fitted cap, studio detail shot",
   },
   {
-    src: "/video/photo_2026-08-10_19-14-40.jpg",
+    src: "public/video/ChatGPT Image Aug 27, 2026, 12_58_36 AM.png",
     alt: "Model wearing a Hattown snapback on the street",
   },
 ];
@@ -54,8 +54,8 @@ export default function Hero() {
       {/* Eyebrow + CTA, top of frame */}
       <div className="relative max-w-[1400px] mx-auto px-5 md:px-8 pt-8 md:pt-10 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Tag variant="signal">New Drop</Tag>
-          <span className="font-mono text-[11px] tracking-widest uppercase text-paper/70">
+          <Tag className="bg-[white] text-black border-0">New Drop</Tag>
+          <span className="font-mono text-[11px] tracking-widest uppercase text-[#6B6B6B]">
             City Series — Vol. 04
           </span>
         </div>
@@ -86,7 +86,7 @@ export default function Hero() {
           Goorin "BLACK OUT" reference: huge cropped type anchored low */}
       <div className="absolute -bottom-[3.5vw] left-0 right-0 overflow-hidden pointer-events-none select-none">
         <h1 className="font-display leading-[0.82] text-[19vw] md:text-[15vw] pl-4 md:pl-8 whitespace-nowrap">
-          HATTOWN
+          BAYOSHY
         </h1>
       </div>
     </section>

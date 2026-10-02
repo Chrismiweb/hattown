@@ -31,7 +31,7 @@ export default function EmailSignup() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@hattown.com"
+                placeholder="you@bayoshy.com"
                 className="underline-input focus-ring"
               />
             </div>
